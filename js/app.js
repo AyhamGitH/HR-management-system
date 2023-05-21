@@ -5,7 +5,7 @@ function random(){
 };
 
 function unique(){
-    return Math.floor(Math.random() * 9000 + 1000)
+    return Math.floor(Math.random() * 8994 + 1000)
 };
 
 let Ghazi = {
