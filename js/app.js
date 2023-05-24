@@ -67,3 +67,4 @@ console.log(`net salary for Hadi is: ${Hadi.salary * 0.925}`);
 for (let i = 0; i < allStudents.length; i++){
     allStudents[i].renderStudents();
 }
+
