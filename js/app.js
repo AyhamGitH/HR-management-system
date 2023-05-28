@@ -21,7 +21,7 @@ function student(name, id, dep, lev, image, sal) {
 student.prototype.renderStudents = function () {
 
     let cardE = document.createElement('div');
-    cardE.setAttribute("class","card");
+    cardE.classList.add("card")
     let main = document.getElementsByTagName("main")[0];
     main.appendChild(cardE);
 
